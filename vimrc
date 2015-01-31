@@ -54,7 +54,7 @@ set mouse=a " enable mouse use in all modes
 set statusline+=%F%=%{fugitive#statusline()} " show full path of current file and current git branch in status bar
 set clipboard=unnamed
 set autoread "automatically refresh buffer when file changes on disk. Does not work when file is deleted!
-set tags=./tags "Make sure ctags is installed and a tags file is generated in the project root
+set tags=./tags "To use this make sure ctags is installed and a tags file is generated in the project root
 "Toggle paste on or off using F2 key. When pasting text from other sources
 "into vim turn paste on to preserve indentation of pasted text.
 nnoremap <F2> :set invpaste paste?<CR>
