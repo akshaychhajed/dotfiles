@@ -17,6 +17,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'mileszs/ack.vim'
+Plugin 'kien/ctrlp.vim'
 
 autocmd StdinReadPre * let s:std_in=1
 
