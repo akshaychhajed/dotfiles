@@ -48,6 +48,7 @@ filetype plugin indent on    " required
 syntax on
 set t_Co=256 " set terminal colors to 256.This is already set in iTerm prefs at Profiles->Terminal->Report Terminal Type=xterm-256color. So not sure if this is still needed.
 set tw=0 " dont wrap lines automatically after 80 columns
+set sw=2 "use 2 spaces for indenting block of text
 set number " show line numbers
 set noswapfile " do not create swap files
 set laststatus=2 " show status bar
