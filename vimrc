@@ -20,6 +20,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ryanss/vim-hackernews'
 Plugin 'duff/vim-scratch'
+Plugin 'fatih/vim-go'
 
 autocmd StdinReadPre * let s:std_in=1
 
