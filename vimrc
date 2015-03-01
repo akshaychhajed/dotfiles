@@ -32,7 +32,7 @@ let NERDTreeMouseMode=3 "single click to open directory in NERDTree. Also opens 
 let NERDTreeWinSize=31
 let NERDTreeChDirMode=2 "make sure working directory is set correctly
 let g:ctrlp_working_path_mode = 'rw' "set correct working dir for ctrlp
-"set focus to editor buffer instead of NERDTree when vim starts up
+"set focus to editor buffer instead of NERDTree when vim starts up.
 autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | wincmd p | endif
 
 
