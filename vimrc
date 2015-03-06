@@ -23,6 +23,7 @@ Plugin 'duff/vim-scratch'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-commentary'
+Plugin 'Raimondi/delimitMate'
 
 autocmd StdinReadPre * let s:std_in=1
 
