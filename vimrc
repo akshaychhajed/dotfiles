@@ -24,6 +24,7 @@ Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-commentary'
 Plugin 'Raimondi/delimitMate'
+Plugin 'elzr/vim-json'
 
 autocmd StdinReadPre * let s:std_in=1
 
