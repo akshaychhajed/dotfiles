@@ -26,6 +26,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'Raimondi/delimitMate'
 Plugin 'elzr/vim-json'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-haml'
 
 autocmd StdinReadPre * let s:std_in=1
 
