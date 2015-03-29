@@ -27,6 +27,12 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'elzr/vim-json'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-haml'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'scrooloose/syntastic'
+
+let g:syntastic_check_on_open=1
 
 autocmd StdinReadPre * let s:std_in=1
 
