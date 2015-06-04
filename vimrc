@@ -79,6 +79,7 @@ set tags=./tags "To use this make sure ctags is installed and a tags file is gen
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+set fileformats+=dos "do not add \n automatically to end of file on saving it
 
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
@@ -91,7 +92,8 @@ let g:rspec_runner = 'os_x_iterm'
 "Uncomment below lines if u want to use solarized color scheme
 "set background=dark
 "colorscheme solarized
-colorscheme railscasts "http://www.vim.org/scripts/script.php?script_id=2536
+" colorscheme railscasts "http://www.vim.org/scripts/script.php?script_id=2536
+colorscheme molokai
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
