@@ -31,6 +31,8 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'scrooloose/syntastic' "To add linting support. For JS linting install jshint using 'npm install -g jshint'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 
 let g:syntastic_check_on_open=1
 
